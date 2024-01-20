@@ -1,9 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  font-family: "Helvetica Neue";
+  font-family: "Univers-Light-Normal";
   font-weight: 400;
   letter-spacing: -0.5px;
+}
+
+#article-font, #articletitle-font, #littlefont {
+  font-family: 'EB Garamond';
+}
+
+p {
+  font-family: "Univers LT Std";
+  font-weight: bold;
+}
+
+p span {
+  font-weight: normal;
 }
 
 .container {
@@ -25,32 +40,40 @@ a {
   background-color: #bababa;
   color: white;
   padding: 20px;
-  font-size: 36px;
+  font-size: 50px;
 }
 
 #nav {
-  font-style: italic;
-  font-family: "Poppins";
-  line-height: 34px;
+  font-family: "Univers LT Std";
+  line-height: 43px;
+}
+
+@media screen and (max-width: 800px) {
+  #nav {
+    line-height: 27px;
+  }
+  .navbar{
+    font-size: 32px;
+  }
 }
 
 #nav:nth-child(1) {
-    color: rgb(91, 255, 37);
+    color: rgb(255, 255, 255);
   }
 #nav:nth-child(2) {
-  color: rgb(255, 255, 255);
+  color: rgb(255, 42, 42);
 }
 #nav:nth-child(3) {
-  color: rgb(253, 71, 162);
+  color: rgb(255, 247, 0);
 }
 #nav:nth-child(4) {
-  color: rgb(49, 238, 255);
+  color: rgb(31, 65, 255);
 }
 #nav:nth-child(5) {
-  color: rgb(234, 255, 43);
+  color: rgb(38, 255, 0);
 }
 #nav:nth-child(6) {
-  color: rgb(57, 43, 255);
+  color: rgb(69, 255, 7);
 }
 
 .image-section {
@@ -135,11 +158,14 @@ a {
 
 @media screen and (min-width: 800px) {
   .image-box h3 {
-    font-size: 30px;
+    font-size: 35px;
   }
-
   .image-box p {
-    font-size: 110%;
+    font-size: 20px;
+  }
+  .image-box .little {
+    font-size: 25px;
+    margin-top: -25px;
   }
 }
 
@@ -244,7 +270,7 @@ h3 a:hover {
   }
 
   #dark {
-    background-color: rgb(66, 66, 66);
+    background-color: #565656;
   }
 
   #light {
