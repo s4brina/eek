@@ -57,24 +57,22 @@ a {
   }
 }
 
-#nav:nth-child(1) {
+#nav:nth-child(2) {
     color: rgb(255, 255, 255);
   }
-#nav:nth-child(2) {
+#nav:nth-child(3) {
   color: rgb(255, 42, 42);
 }
-#nav:nth-child(3) {
+#nav:nth-child(4) {
   color: rgb(255, 247, 0);
 }
-#nav:nth-child(4) {
+#nav:nth-child(5) {
   color: rgb(31, 65, 255);
 }
-#nav:nth-child(5) {
+#nav:nth-child(6) {
   color: rgb(38, 255, 0);
 }
-#nav:nth-child(6) {
-  color: rgb(69, 255, 7);
-}
+
 
 .image-section {
   display: flex;
@@ -166,6 +164,10 @@ a {
   .image-box .little {
     font-size: 25px;
     margin-top: -25px;
+  }
+  h1 {
+    font-size: 80px;
+    line-height: 70px;
   }
 }
 
@@ -296,4 +298,16 @@ h3 a:hover {
 
   #darka, #darkp {
     color: rgb(186, 186, 186);
+  }
+
+  #main-title {
+    background-color: rgba(255, 192, 203, 0);
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: -3px;
+  }
+
+  .red {
+    color: rgb(48, 255, 16);
   }
