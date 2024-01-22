@@ -343,3 +343,8 @@ h3 a:hover {
   margin: 0px;
   padding: 0;
 }
+
+.video-box {
+  width: 100%; /* Set the width to 100% to make it grow/shrink with the container */
+  height: auto; /* Maintain the aspect ratio of the video */
+}
